@@ -20,7 +20,7 @@ function DeletarCategoria() {
 
   async function buscarPorId(id: string) {
     try {
-      await buscar(`/temas/${id}`, setCategoria,)
+      await buscar(`/categorias/${id}`, setCategoria,)
 
     } catch (error: any) {
       console.log(error)
@@ -40,7 +40,6 @@ function DeletarCategoria() {
     try {
       await deletar(`/categorias/${id}`
       )
-
       alert('Categoria apagada com sucesso')
 
     } catch (error) {
