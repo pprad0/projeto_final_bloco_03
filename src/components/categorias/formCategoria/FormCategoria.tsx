@@ -76,13 +76,13 @@ function FormularioCategoria() {
             type="text"
             placeholder="Descreva aqui sua categoria"
             name="nome"
-            className="border-2 border-slate-700 rounded p-2"
+            className="border-2 border-blue-600 rounded p-2"
             value={categoria.nome}
             onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
           />
         </div>
         <button
-          className="rounded text-slate-100 bg-teal-600 
+          className="rounded text-white bg-teal-500 
                     hover:bg-teal-900 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >

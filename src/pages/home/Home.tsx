@@ -4,7 +4,8 @@ function Home() {
       <div style={{
         width: "100vw",
         display: "flex",
-        justifyContent: "center"
+        justifyContent: "center",
+
       }}>
         <div>
           <div style={{
@@ -13,8 +14,8 @@ function Home() {
             flexDirection: "column",
             alignItems: "center"
           }}>
-            <h2>Olá!</h2>
-            <p>Fique à vontade para comprar</p>
+            <h2 className="-tracking-wide font-medium font">Olá!</h2>
+            <p>Temos os melhores preços em medicamentos, sempre!</p>
           </div>
 
           <div style={{
@@ -24,9 +25,10 @@ function Home() {
             alignItems: "center"
           }}>
             <img
-              src="https://i.imgur.com/VpwApCU.png"
+              src='https://img.freepik.com/vetores-premium/modelo-de-vetor-de-logotipo-de-farmacia-moderna_664675-756.jpg?w=996'
               alt="Imagem da Página Home"
               width="400px"
+
             />
           </div>
         </div>
